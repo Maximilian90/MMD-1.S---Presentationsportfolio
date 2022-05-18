@@ -9,13 +9,14 @@
     justify-content: space-around;
     align-items: center;
     font-size: 25px;
+
 }    
 .nav-list {
     list-style: none;
 }   
-.nav-list.list-item {
+.list-item {
     display:inline-block;
-    padding: 20px 10px;
+    padding: 20px 60px;
 } 
 
 
@@ -42,20 +43,13 @@ h2 {
     }
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: rgb(244, 208, 63);
-    font-size: 25px;
-    font-style: normal;
-    letter-spacing:5px; 
-    line-height:20px;
-    }
-h4 {
-    font-family: 'Montserrat', sans-serif;
     color:  rgb(242, 241, 239);
     font-size: 25px;
     font-style: normal;
     letter-spacing:5px; 
     line-height:20px;
-    } 
+    }
+ 
 p   {
     font-family: 'Roboto', sans-serif;
     color: rgb(219, 226, 230);
@@ -80,26 +74,32 @@ p   {
     letter-spacing:5px ; 
     line-height:25px;
 }
+
+header {
+   
+
+}
 body {
-    width: 100%;
-    min-height: 100%;
+    background-image: url("images/Logo1big.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, repeat-y;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    min-height: auto;
     background-color: rgb(33, 30, 57);
     color: rgb(219, 226, 230);
 }
 
 section {
-    padding: 150px 0;
+    padding: 300px 0;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 footer
 
 
-
-
-
-.logob {
-    display: flex;
-    justify-content: flex-end;
-    }
 
 
 
@@ -109,7 +109,9 @@ footer
     margin-inline: auto;
     width: min(90%, 70,5rem);
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
+    margin-left: 15%;
 
 }   
 
@@ -133,5 +135,5 @@ footer
     .split >* + * {
         margin-left: 1em;
         }
+    .container-frontpage {}
 }
-    
