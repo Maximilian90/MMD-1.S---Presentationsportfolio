@@ -16,12 +16,40 @@
 }   
 .list-item {
     display:inline-block;
-    padding: 20px 60px;
+    padding: 20px 40px;
+    font-family: 'Montserrat', sans-serif;
 } 
 
 
+.flex-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
 
+.flex-child {
+    flex: 30%;
+    margin-inline: auto;     
+}
 
+.spaceholder {
+    width: 450px;
+    height: 450px;
+    border: 15px solid green;
+    padding: 50px;  
+}
+.projects {
+    position: relative;
+    left: 72%;
+    
+}
+.position-text {
+    position:relative;
+    top: 300px;
+    
+}   
 
 h1 {
     font-family: 'Montserrat', sans-serif;
@@ -137,3 +165,4 @@ footer
         }
     .container-frontpage {}
 }
+
