@@ -6,8 +6,6 @@
 /* Reset all browser standard setup */
      
 
-
-
 nav {
     display: flex;
     align-items: stretch;
@@ -184,7 +182,7 @@ body {
 }
 
 section {
-    padding: 250px 0;
+    padding: 15rem 0;
     margin-left: 10%;
     margin-right: 10%;
 }
@@ -197,12 +195,12 @@ p a:hover {
     text-decoration: underline;
 }
 
-footer {
-    background-color: #1F1C33;
-}
-   
+footer 
+
+
 
 .container {
+    min-height: 250px 0;
     margin-inline: auto;
     width: min(90%, 70,5rem);
     
