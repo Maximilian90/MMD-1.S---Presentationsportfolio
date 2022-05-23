@@ -58,11 +58,7 @@ nav ul li a:hover{
 .flex-wrapper1 {
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    
-    
-    
-    
+    flex-wrap: wrap;   
 }
 
 .flex-child1 {
@@ -76,16 +72,23 @@ nav ul li a:hover{
 }
 
 .flex-wrapper2 {
-    padding: 12vh 0 ;
-    text-align: center;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    
 
 }
 .flex-child2 {
     flex-basis: 30%;
+    margin-bottom: 50px;
     
 }
+
+.headline-projects {
+    display:inline; 
+    float:right;  
+}
+
 
 .spaceholder {
     width: 450px;
@@ -93,11 +96,9 @@ nav ul li a:hover{
     border: 15px solid green;
     padding: 50px;  
 }
-.projects {
-    position: relative;
-    left: 72%;
+
     
-}
+
 .position-text {
     position:relative;
     top: 300px;
@@ -195,7 +196,28 @@ p a:hover {
     text-decoration: underline;
 }
 
-footer 
+footer {
+    background: #1F1C33;
+    background-size: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 52px;
+    
+}
+.footer-container {
+
+}
+footer p a {
+    text-decoration: none;
+}
+
+.split1 {
+    display: flex;
+    
+    justify-content: space-between;
+
+}
 
 
 
