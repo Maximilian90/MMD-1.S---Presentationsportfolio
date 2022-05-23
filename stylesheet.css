@@ -295,6 +295,16 @@ button {
     flex-direction: column;
 }
 
+/* projects ccs code */
+.h1project {
+    padding-bottom: 40px;
+}
+.h3project {
+    padding-bottom: 40px;
+}
+.pproject {
+    padding-top: 40px;
+}
 
 @media (min-width: 40em){
     .split {flex-direction: row;}
